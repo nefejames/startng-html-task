@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS"
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: #37376B;
+    color: white;
+}
+
+/*======Header Section Styles=======*/
+header{
+    width: 100%;
+    align-self: center;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid #F2807A;
+    text-align: center;
+    display: inline-block;
+}
+
+.contact-info{
+    text-align: center;
+    margin: 2rem 0 0;
+    display: inline-block;
+}
+
+.contact-info a{
+    color: #F2807A;
+}
+
+/*Main Section Styles*/
+
+main{
+    width: 80%;
+    margin: 2rem auto 3em;
+}
+
+.section{
+    width: 90%;
+    margin: 0 auto 3rem;
+}
+
+.section p{
+    width: 80%;
+}
+
+.section ul{
+    width: 76%;
+}
+
+main div h2{
+    margin-bottom: .5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+main div p{
+    line-height: 1.4;
+}
+
+main div ul{
+    margin-left: 1rem;
+}
+
+main div li{
+    margin-bottom: 0.5rem
+}
+
+h2{
+    color: #F2807A;
+}
+
+/*Education Setion Styles*/
+.inner-box{
+    margin-bottom: 2rem;
+}
+/*Referee Section Styles*/
+.referee{
+    margin-bottom: 2rem;
+}
+
+.referee li:first-child{
+    list-style: none;
+    margin-left: -1rem;
+}
+
+/*img section styles*/
+.img-box{
+    padding: 2rem;
+    display: inline-block;
+    border: 2px solid #F2807A;
+    margin-left:3.6rem;
+}
