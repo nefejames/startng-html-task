@@ -161,8 +161,6 @@
             <ul>
                 <li>3D modeling with Autodesk Inventor software.</li>
                 <li>Front end web development.</li>
-                <li>HTML</li>
-                <li>CSS</li>
             </ul>
         </div>
 
@@ -230,7 +228,33 @@
                 alt="emadamerho nefe's picture">
         </div>
 
+
+        <div class="wrapper">
+            <h2>Contact us</h2>
+            <div id="error_message"></div>
+            <form id="myform" onsubmit="return validate();">
+                <div class="input-container">
+                    <div class="input_field">
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Title" id="subject">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Email" id="email">
+                    </div>
+                    <div class="input_field">
+                        <textarea placeholder="Message" id="message"></textarea>
+                    </div>
+
+                    <input type="submit">
+
+                </div>
+            </form>
+        </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
